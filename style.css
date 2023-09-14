@@ -121,3 +121,13 @@ button:hover {
 .high {
     color: #d90939;
 }
+
+@media screen and (max-width: 450px) {
+    .container {
+        min-width: 90%;
+        min-height: 400px;
+        padding: 0;
+        background-color: #090e22;
+        padding: 2rem;
+    }
+}
